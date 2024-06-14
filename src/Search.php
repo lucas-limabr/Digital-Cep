@@ -13,6 +13,7 @@ class Search{
 
         //montagem da url completa: url da api + o cep passado + o tipo de retorno
         $url = $this->url . $cep . '/json';
+        //var_dump($url);
 
         //esta função é a responsável por mandar a requisição HTTP para a API passando a url completa, ela tem como retorno a reposta do servidor(API), é um json, pois, esse é o tipo especificado na url passada
         
