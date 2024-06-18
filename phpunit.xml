@@ -1,0 +1,8 @@
+<!-- Foi necessário eu criar este arquivo pois ele não vem com a instalação do phpunit. Ele é apenas para configurar a cor (verde ou vermelha) nas respostas dos testes -->
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="My Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

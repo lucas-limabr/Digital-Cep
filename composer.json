@@ -14,5 +14,7 @@
             "email": "lucaslimamg28@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "11"
+    }
 }
