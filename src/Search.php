@@ -39,7 +39,8 @@ class Search
         return $get;
     }
 
-    public function jsonDecode(string $get) : array{
+    public function jsonDecode(string $get): array
+    {
         //decodifica o json e passa ele para um array associativo
         $endereco = json_decode($get, true);
         //var_dump($endereco);
@@ -50,7 +51,7 @@ class Search
         }
 
          // Verifica se a conversão foi bem sucedida
-         if (json_last_error() !== JSON_ERROR_NONE) {
+        if (json_last_error() !== JSON_ERROR_NONE) {
             throw new \Exception("Erro ao decodificar o JSON: " . json_last_error_msg());
         }
 
