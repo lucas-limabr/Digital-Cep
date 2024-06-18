@@ -1,1 +1,1 @@
-###Esta é uma biblioteca php para uso de uma API pública, o viaCep. Esta library foi criado com o composer e se encontra como dependência no packgist 
+### Esta é uma biblioteca php para uso de uma API pública, o viaCep. Esta library foi criado com o composer e se encontra como dependência no packgist, sob a minha manutenção, você pode acessá-la neste link: [Digital Cep](https://packagist.org/packages/lucas_limabr/digital-cep)
